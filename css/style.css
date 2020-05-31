@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Blokletters Balpen';
+  src:url("../recursos/Blokletters Balpen.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Alata regular';
+  src:url("../recursos/Alata regular.ttf") format('truetype');
+}
+*{
+    color: white;
+}
+.cabezera{
+    
+    position:fixed;
+    z-index: 9;
+    background-color: royalblue;
+    height: 89px;
+}
+
+.secciones{
+font-family:Alata regular; 
+    
+    color: white;
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    left: 10px;
+}
+
+
+body{}
+.azuluno, .azuldos, .azultres, .azulcuatro, .azulcinco{
+    width:100% auto;
+    height: 768px;
+    background-image: linear-gradient(cornflowerblue, white); 
+}
+
+
+/*ubicacion partes*/
+.uno{
+    position:relative;
+    bottom: 3700px;
+}
+
+.dos{
+    position:relative;
+    bottom: 3500px;
+}
+.tres{
+    position:relative;
+    bottom: 3300px;
+}
+.cuatro{
+    position:relative;
+    bottom: 3100px;
+}
+.cinco{
+    position:relative;
+    bottom: 2800px;
+}
+
+/*partes*/
+#a, #c, #b {
+    margin-top: 1rem;
+    /*background-color: midnightblue;*/
+    height:250px;
+}
+
+#c {
+     background-color: #0078A7; 
+    }
+
+#c {
+     text-align: center;
+     padding: 50px;
+     font-size: 100px;
+     font-family: Blokletters Balpen;
+     border-radius: 50px; 
+    }
+
+#d, #e {
+    margin-top: 1rem;
+    height:250px;
+}
+
+#e {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 90px;
+    font-family: Blokletters Balpen;
+    background-color: #233460;
+    border-radius: 50px;
+    }
+
+#d {
+    background-color: #9DAFC7;  
+    } 
+
+#f, #g, #h {
+    margin-top: 1rem;
+    height:250px;
+}
+
+#i, #l {
+    margin-top: 1rem;
+    /*background-color: #0078A7;*/
+    height:250px;
+}
+
+#m, #n {
+    margin-top: 1rem;
+    background-color: darkslategrey;
+    height:250px;
+    }
+
+#h { 
+    text-align: center;
+    padding: 50px;
+    font-size: 100px;
+    font-family: Blokletters Balpen;
+    background-color: #415667; 
+    border-radius: 50px;
+}
+
+#m { 
+    background-color: #9DAFC7;      
+}
+
+#n{
+  text-align: center;
+  padding-top: 70px;
+  font-size: 65px;
+  font-family: Blokletters Balpen;
+  background-color: #233460;
+  border-radius: 50px;
+}
+
+
+
+#c video {
+  background-position: center;
+  background-size: cover;
+    
+  /*width: 100%;
+  height: auto;*/
+}
+
+#arboles, #iceberg, #iglu, #buque {
+    height: 100%;  
+}
+
+#pez{
+    height: 100%;
+    padding:  20px;
+}
+
+#videouno, #videodos, #videotres {   
+ height: 100%;
+ width: 100%;
+ background-position: center;   
+}
